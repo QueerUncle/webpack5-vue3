@@ -1,0 +1,25 @@
+<!--
+  @Author: lize
+  @Date: 2021/4/15
+  @Description :
+  @Parames :
+  @Example :
+  @Last Modified by: lize
+  @Last Modified time: 2021/4/15
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<!--    <title>Title</title>-->
+    <title><%= htmlWebpackPlugin.options.title %></title>
+</head>
+<body>
+    <span><%= htmlWebpackPlugin.options.LIZE %></span>
+    <div id = "app"></div>
+</body>
+<script>
+    console.log(window)
+    var lize = "${LIZE}"
+</script>
+</html>
